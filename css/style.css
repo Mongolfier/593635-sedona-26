@@ -145,6 +145,41 @@ body {
   padding: 53px 54px;
 }
 
-.reason-one p {
+.cards {
+  text-transform: uppercase;
+  line-height: 21px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+.cards h3 {
+  font-size: 21px;
+}
+
+.cards p {
+  font-size: 14px;
+  color: #333333;
+}
+
+.cards li {
+  width: 33.3%;
+  text-align: center;
+  padding: 162px 48px 60px;
+  background-repeat: no-repeat;
+  background-position: center 60px;
+}
+
+.housing {
+  background-image: url("../img/icon-1.svg");
+}
+
+.food {
+  background-image: url("../img/icon-3.svg");
+}
+
+.souvenirs {
+  background-image: url("../img/icon-2.svg");
 }
