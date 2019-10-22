@@ -1,0 +1,150 @@
+@font-face {
+  font-family: ptsans;
+  src: url("../fonts/ptsans.woff2") format("woff2"),
+  url("../fonts/ptsans.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: ptsans;
+  src: url("../fonts/ptsansbold.woff2") format("woff2"),
+  url("../fonts/ptsansbold.woff") format("woff");
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "ptsans", "Arial", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+}
+
+.top-head {
+  position: relative;
+  font-weight: bold;
+}
+
+.nav-list {
+  width: 1128px;
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+.nav-list a:hover {
+  color: powderblue;
+}
+
+.nav-list li:nth-child(1),
+.nav-list li:nth-child(2) {
+  margin-right: auto;
+}
+
+.nav-list li:nth-child(3),
+.nav-list li:nth-child(4) {
+  margin-left: auto;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 10px 30px 10px 30px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 70px);
+  width: 140px;
+}
+
+.main-img {
+  width: 1128px;
+  height: 510px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: powderblue;
+  text-align: center;
+  background-image: url("../img/intro-welcome.svg"), url("../img/intro-mask.svg"), url("../img/main-photo.jpg");
+  background-size: 39%, auto, cover;
+  background-position: center 76px, center 453px, center -55px;
+  background-repeat: no-repeat;
+}
+
+.main-img p {
+  margin: 0;
+}
+
+.acquaintance {
+  text-transform: uppercase;
+  text-align: center;
+  width: 540px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+
+.acquaintance h2 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.acquaintance {
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+.reasons h2 {
+  width: 200px;
+  line-height: 21px;
+  font-size: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.reasons p {
+  line-height: 21px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.reason-one,
+.reason-two {
+  background-color: #81b3d2;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reason-text {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 53px 54px;
+}
+
+.reason-one p {
+
+}

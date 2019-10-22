@@ -3,10 +3,98 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+    <div class="container">
+      <header>
+        <nav class="top-head">
+          <ul class="nav-list">
+            <li><a href="#">информация</a></li>
+            <li><a href="#">фото и видео</a></li>
+            <li><a href="#">карта штата</a></li>
+            <li><a href="#">гостиницы</a></li>
+          </ul>
+          <div class="logo"><img src="img/logo.png" width="140" height="71"></div>
+        </nav>
+        <div class="main-img"></div>
+      </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+      <main>
+        <section class="acquaintance">
+          <h2>седона &ndash; небольшой городок в аризоне, заслуживающий большего!</h2>
+          <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+        </section>
+
+        <section class="reasons">
+          <div class="reason-one">
+            <div class="reason-text">
+              <h2>настоящий городок</h2>
+              <p>&ndash; №1 &ndash;</p>
+              <p>седона &ndash; не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <img src="img/sedona-city.jpg" width="800" height="256">
+          </div>
+
+          <h3>жильё</h3>
+          <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+
+          <h3>еда</h3>
+          <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+
+          <h3>сувениры</h3>
+          <p>не только китайского, но и местного производства!</p>
+
+          <div class="reason-two">
+            <h2>там есть мост дьявола</h2>
+            <p>&ndash; №2 &ndash;</p>
+            <p>да, по нему можно пройти! если конечно вы осмелитесь</p>
+          </div>
+
+          <h2>небольшая площадь</h2>
+          <p>&ndash; №3 &ndash;</p>
+          <p>все достопримечательности находятся очень близко</p>
+
+          <h2>красивая дорога</h2>
+          <p>&ndash; №4 &ndash;</p>
+          <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+          <h3>мало туристов</h3>
+
+          <p>&ndash; №5 &ndash;</p>
+          <p>большинство едет в гранд каньон и толпится там</p>
+        </section>
+
+        <h2>заинтересовались?</h2>
+        <p>укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <iframe></iframe>
+      </main>
+
+      <footer>
+        <p>#visitsedona</p>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <p>website by</p>
+      </footer>
+    </div>
+
+    <form>
+      <h2>поиск гостинницы в седоне</h2>
+      <label for="date-in">дата заезда:</label>
+      <input id="date-in" type="text" name="">
+      
+      <label for="date-out">дата выезда:</label>
+      <input id="date-out" type="text" name="">
+
+      <label for="number-adult">взрослые:</label>
+      <input id="number-adult" type="text" name="">
+
+      <label for="number-children">дети:</label>
+      <input id="number-children" type="text" name="">
+
+      <button type="submit">найти</button>
+    </form>
 
   </body>
 </html>
