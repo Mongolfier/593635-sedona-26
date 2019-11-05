@@ -122,6 +122,10 @@ body {
   margin: 0 auto;
 }
 
+.reasons {
+  counter-reset: reason-counter;
+}
+
 .reasons p {
   line-height: 21px;
   font-size: 14px;
@@ -182,4 +186,32 @@ body {
 
 .souvenirs {
   background-image: url("../img/icon-2.svg");
+}
+
+.more-reasons-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.more-reasons-item {
+  display: block;
+  background-color: #eeeeee;
+  padding: 48px 65px;
+}
+
+.number-reason::before {
+  content: "\2013 \a0 №" counter(reason-counter) " \2013";
+  counter-increment: reason-counter;
+  position: absolute;
+}
+
+.more-reasons-list h2 {
+  width: 125px;
+}
+
+.more-reasons-item p {
+  color: #333333;
 }
